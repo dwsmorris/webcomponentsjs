@@ -58,6 +58,7 @@
     '../../shadydom/shadydom.min.js',
     '../../custom-elements/custom-elements.min.js',
     '../../shadycss/shadycss.min.js',
+    '../../shadycss/src/custom-style-element.js',
     'post-polyfill.js',
     'unresolved.js'
   ];
