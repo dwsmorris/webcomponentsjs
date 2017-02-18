@@ -1515,7 +1515,7 @@ window.HTMLImports.addModule(function(scope) {
   var importParser = {
     documentSelectors: IMPORT_SELECTOR,
     importsSelectors: [ IMPORT_SELECTOR, "link[rel=stylesheet]:not([type])", "style:not([type])", "script:not([type])", 'script[type="application/javascript"]',
-      'script[type="text/javascript"]', 'script[type="text/spaced-javascript"]' ].join(","),
+      'script[type="text/javascript"]', 'script[type="text/patternscript"]' ].join(","),
     map: {
       link: "parseLink",
       script: "parseScript",
